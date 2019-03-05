@@ -74,7 +74,7 @@ app.get("/frontend", (req, res) => {
 
         console.log(arr);
 
-        res.send(result);
+        res.send(arr);
     });
     
 });
